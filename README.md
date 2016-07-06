@@ -17,7 +17,9 @@ APPLICATION_ID=WRITE_YOUR_APPLICATION_ID_HERE
 ## Usage
 
 ```sh
-$ ruby ./longpage.rb
+$ git clone git@github.com:satoryu/longpage.git
+$ bundle install
+$ bundle exec ruby ./longpage.rb
 ```
 
 ## License
