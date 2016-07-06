@@ -27,7 +27,7 @@ GEM
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
     pkg-config (1.1.7)
-    rack (1.5.2)
+    rack (2.0.1)
     rack-test (0.6.2)
       rack (>= 1.0)
     rakuten_web_service (0.1.0)
