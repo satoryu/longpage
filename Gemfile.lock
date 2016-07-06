@@ -18,14 +18,16 @@ GEM
     faraday_middleware (0.9.0)
       faraday (>= 0.7.4, < 0.9)
     ffi (1.9.0)
-    json (1.8.0)
+    json (1.8.3)
     mime-types (1.24)
-    mini_portile (0.5.1)
+    mini_portile2 (2.1.0)
     multi_json (1.7.9)
     multipart-post (1.2.0)
-    nokogiri (1.6.0)
-      mini_portile (~> 0.5.0)
-    rack (1.5.2)
+    nokogiri (1.6.8)
+      mini_portile2 (~> 2.1.0)
+      pkg-config (~> 1.1.7)
+    pkg-config (1.1.7)
+    rack (2.0.1)
     rack-test (0.6.2)
       rack (>= 1.0)
     rakuten_web_service (0.1.0)
@@ -48,5 +50,9 @@ DEPENDENCIES
   capybara
   capybara-webkit
   dotenv
+  json (~> 1.8.2)
   rakuten_web_service
   selenium-webdriver
+
+BUNDLED WITH
+   1.10.6
